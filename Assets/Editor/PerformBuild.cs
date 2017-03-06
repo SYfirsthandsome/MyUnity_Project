@@ -60,10 +60,10 @@ using System.Collections.Generic;
 	/// <summary>
 	/// Commands the line build android.
 	/// </summary>
-	static void CommandLineBuildAndroid()
+	static void CommandLineBuild()
 	{
 
-		Debug.Log("Command line build android version\n--------------------\n-----------------");
+		Debug.Log("Command line build android version\n--------------------\n----------------------");
 
 
 		string[] scenes = GetBuildScenes ();
